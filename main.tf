@@ -25,4 +25,4 @@ resource "aws_s3_bucket" "th_bucket" {
  
   }
 
-}
+
