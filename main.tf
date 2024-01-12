@@ -8,7 +8,7 @@ provider "aws" {
 }
 
 # Create an EC2 instance
-resource "aws_instance" "th_instance" {
+resource "aws_instance"  {
   ami           = "ami-0014ce3e52359afbd"  # Replace with your desired AMI ID
   instance_type = "t3.micro"
   
@@ -18,7 +18,7 @@ resource "aws_instance" "th_instance" {
     }
 
 # Create an S3 bucket
-resource "aws_s3_bucket" "th_bucket" {
+resource "aws_s3_bucket" {
   bucket = "crusers990025"  # Change this to a globally unique name
   acl    = "private"
 
