@@ -16,7 +16,7 @@ resource "aws_instance" "th_instance" {
     Name = "thInstance"
 
     }
-
+}
 # Create an S3 bucket
 resource "aws_s3_bucket" "th_bucket" {
   bucket = "crusers990025"  # Change this to a globally unique name
