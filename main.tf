@@ -18,8 +18,8 @@ resource "aws_instance" "crusers99_app_sever" {
     }
 }
 # Create an S3 bucket
-resource "aws_s3_bucket" "crusers99-tfstate-bkt" {
-  bucket = "crusers99-tfstate-bkt"  # Change this to a globally unique name
+resource "aws_s3_bucket" "crusers990025-tfstate-bkt" {
+  bucket = "crusers990025-tfstate-bkt"  # Change this to a globally unique name
   acl    = "private"
 
 tags = {
