@@ -1,7 +1,7 @@
 # main.tf
 
 provider "aws" {
-  region = "us-east-1"  # You can change the region as needed
+  region = "eu-north-1"  # You can change the region as needed
   access_key ="AKIATZ37TT5ADRGQ77ME"
   secret_key ="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"
 
