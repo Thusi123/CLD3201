@@ -1,7 +1,7 @@
 # main.tf
 
 provider "aws" {
-  region = "eu-north-1"  # You can change the region as needed
+  region = "us-east-1"  # You can change the region as needed
   access_key ="AKIATZ37TT5ADRGQ77ME"
   secret_key ="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"
 
@@ -9,8 +9,8 @@ provider "aws" {
 
 # Create an EC2 instance
 resource "aws_instance" "crusers99_app_sever" {
-  ami           = "ami-06478978e5e72679a"  # Replace with your desired AMI ID
-  instance_type = "t3.micro"
+  ami           = "ami-0c7217cdde317cfec"  # Replace with your desired AMI ID
+  instance_type = "t2.micro"
   
   tags = {
     Name = "crusers99_app_sever"
