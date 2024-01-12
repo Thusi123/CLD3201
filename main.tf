@@ -9,8 +9,8 @@ provider "aws" {
 
 # Create an EC2 instance
 resource "aws_instance" "crusers99_app_sever" {
-  ami           = "ami-0014ce3e52359afbd"  # Replace with your desired AMI ID
-  instance_type = "t3.micro"
+  ami           = "ami-0c7217cdde317cfec"  # Replace with your desired AMI ID
+  instance_type = "t2.micro"
   
   tags = {
     Name = "crusers99_app_sever"
