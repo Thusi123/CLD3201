@@ -30,7 +30,7 @@ jobs:
           aws configure set aws_secret_access_key ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
       - name: Terraform Init
-        run: terraform init
+        run: terraform init 
 
       - name: Terraform Validate
         run: terraform validate
