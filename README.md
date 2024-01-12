@@ -1,6 +1,5 @@
 # Food Square
-# Food order & delivery 
-# Design by cloud crusers 
+## Design by cloud crusers 
 
 ## Clone repo
 
