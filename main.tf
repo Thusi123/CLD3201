@@ -19,7 +19,7 @@ resource "aws_instance" "my_instance" {
 
 # Create an S3 bucket
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "cloud-cruse"  # Change this to a globally unique name
+  bucket = "cloud-crusers990025"  # Change this to a globally unique name
   acl    = "private"
   
   }
