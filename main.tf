@@ -8,21 +8,25 @@ provider "aws" {
 }
 
 # Create an EC2 instance
-resource "aws_instance" "th_instance" {
+resource "aws_instance" "crusers99_app_sever" {
   ami           = "ami-0014ce3e52359afbd"  # Replace with your desired AMI ID
   instance_type = "t3.micro"
   
   tags = {
-    Name = "thInstance"
+    Name = "crusers99_app_sever"
 
     }
 }
 # Create an S3 bucket
-resource "aws_s3_bucket" "th_bucket" {
-  bucket = "crusers990025"  # Change this to a globally unique name
+resource "aws_s3_bucket" "crusers99-tfstate-bkt" {
+  bucket = "crusers99-tfstate-bkt"  # Change this to a globally unique name
   acl    = "private"
 
- 
+tags = {
+    Name = "Terraform State Bucket"
+
+    }
+
   }
 
 
